@@ -213,10 +213,10 @@ function resume() {
 
 requestAnimationFrame(() => requestAnimationFrame(() => schedule(INTERVAL)));
 
-drink.addEventListener("pointerenter", pause);
-["pointerleave", "pointercancel"].forEach((ev) =>
-	drink.addEventListener(ev, resume)
-);
+// drink.addEventListener("pointerenter", pause);
+// ["pointerleave", "pointercancel"].forEach((ev) =>
+// 	drink.addEventListener(ev, resume)
+// );
 
 drink.addEventListener("animationend", (e) => {
 	if ((e.animationName === "slideInHoldOut")) {
