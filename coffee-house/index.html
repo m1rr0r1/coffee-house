@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coffee House</title>
+		<link rel="icon" href="assets/coffee-cup.png" type="image/png" />
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/4fb972d105.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<a id="logo" class="link">
+					<img src="assets/logo.png" alt="logo" class="logo" />
+				</a>
+				<nav>
+					<ul>
+						<li><a class="link" href="#fav_coffee">Favorite coffee</a></li>
+						<li><a class="link" href="#about">About</a></li>
+						<li><a class="link" href="#mob_app">Mobile app</a></li>
+						<li><a class="link" href="#contact">Contact us</a></li>
+					</ul>
+				</nav>
+				<a class="menu_link">Menu <i class="fa-solid fa-mug-hot"></i></a>
+				<div class="burger" id="burger">
+					<i class="fa-solid fa-bars"></i>
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+			</header>
+
+			<div class="burger-menu">
+				<nav>
+					<ul>
+						<li>
+							<a class="burger_menu_link" href="#fav_coffee">Favorite coffee</a>
+						</li>
+						<li><a class="burger_menu_link" href="#about">About</a></li>
+						<li>
+							<a class="burger_menu_link" href="#mob_app">Mobile app</a>
+						</li>
+						<li><a class="burger_menu_link" href="#contact">Contact us</a></li>
+						<li>
+							<a class="burger_menu_link"
+								>Menu <i class="fa-solid fa-mug-hot"></i
+							></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<main class="home">
+				<section class="hero">
+					<video autoplay muted loop playsinline class="bg-video">
+						<source
+							src="https://www.pexels.com/ru-ru/download/video/2909914/"
+						/>
+						Your browser does not support the video tag.
+					</video>
+					<div class="behind">
+						<h1>
+							<span class="enjoy">Enjoy</span> premium coffee at our charming
+							cafe
+						</h1>
+						<p>
+							With its inviting atmosphere and delicious coffee options, the
+							Coffee House Resource is a popular destination for coffee lovers
+							and those seeking a warm and inviting space to enjoy their
+							favorite beverage.
+						</p>
+						<button>Menu<i class="fa-solid fa-mug-hot"></i></button>
+					</div>
+				</section>
+
+				<section id="fav_coffee" class="fav_coffee">
+					<h2>Choose your <span class="fav">favorite</span> coffee</h2>
+					<div class="slider">
+						<div class="arrow-left">
+							<i class="fa-solid fa-arrow-left"></i>
+						</div>
+						<div class="slider-viewport">
+							<div class="drink"></div>
+						</div>
+						<div class="arrow-right">
+							<i class="fa-solid fa-arrow-right"></i>
+						</div>
+					</div>
+					<div class="three-lines">
+						<div class="progress-bar first_line"></div>
+						<div class="progress-bar second_line"></div>
+						<div class="progress-bar third_line"></div>
+					</div>
+				</section>
+
+				<section class="about" id="about">
+					<h2>
+						Resource is the
+						<span class="perfect">perfect and cozy place</span> where you can
+						enjoy a variety of hot beverages, relax, catch up with friends, or
+						get some work done.
+					</h2>
+					<div class="images">
+						<img class="image a" src="assets/about-1.jpg" alt="image_1" />
+						<img class="image b" src="assets/about-3.jpg" alt="image_3" />
+						<img class="image c" src="assets/about-2.jpg" alt="image_2" />
+						<img class="image d" src="assets/about-4.jpg" alt="image_4" />
+					</div>
+				</section>
+				<section class="mob_app" id="mob_app">
+					<div class="first_block">
+						<h2>
+							<span class="download">Download</span> our apps to start ordering
+						</h2>
+						<p>
+							Download the Resource app today and experience the comfort of
+							ordering your favorite coffee from wherever you are
+						</p>
+						<div class="buttons">
+							<div class="app_store">
+								<i class="fa-brands fa-apple"></i>
+								<div class="small-block">
+									<p>Available on the</p>
+									<p>App Store</p>
+								</div>
+							</div>
+							<div class="google_play">
+								<i class="fa-brands fa-google-play"></i>
+								<div class="small-block">
+									<p>Available on</p>
+									<p>Google Play</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="second_block">
+						<img src="assets/mobile-screens.png" alt="mobile-screens" />
+					</div>
+				</section>
+			</main>
+
+			<footer>
+				<section class="contact" id="contact">
+					<div class="first_block">
+						<h2>Sip, Savor, Smile. <span>It's coffee time!</span></h2>
+						<div class="socials">
+							<i class="fa-brands fa-twitter"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-facebook-f"></i>
+						</div>
+					</div>
+					<div class="second_block">
+						<p class="contact-us">Contact us</p>
+						<div class="location">
+							<a
+								href="https://www.google.com/maps?q=40.748817,-73.985428"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i class="fa-solid fa-location-dot"></i>
+								<p>8558 Green Rd., LA</p>
+							</a>
+						</div>
+						<div class="phone">
+							<a href="tel:+1(603)5550123"
+								><i class="fa-solid fa-phone"></i>
+								<p>+1 (603) 555-0123</p></a
+							>
+						</div>
+						<div class="schedule">
+							<i class="fa-regular fa-clock"></i>
+							<p>Mon-Sat: 9:00 AM - 23:00 PM</p>
+						</div>
+					</div>
+				</section>
+			</footer>
+		</div>
+		<div class="backdrop"></div>
+
+		<div class="modal">
+			<img class="modal_photo" src="..." alt="modal_photo" />
+			<div class="info">
+				<h3 class="name">...</h3>
+				<p class="description"></p>
+				<p class="size">Size</p>
+				<div class="sizes_block">
+					<div class="small">
+						<p class="s">S</p>
+						<p class="size_s"></p>
+					</div>
+					<div class="medium">
+						<p class="m">M</p>
+						<p class="size_m"></p>
+					</div>
+					<div class="large">
+						<p class="l">L</p>
+						<p class="size_l"></p>
+					</div>
+				</div>
+				<p class="additives">Additives</p>
+				<div class="additives_block">
+					<div class="first">
+						<p class="additive_one">1</p>
+						<p class="first_additive"></p>
+					</div>
+					<div class="second">
+						<p class="additive_two">2</p>
+						<p class="second_additive"></p>
+					</div>
+					<div class="third">
+						<p class="additive_three">3</p>
+						<p class="third_additive"></p>
+					</div>
+				</div>
+				<div class="total_price_block">
+					<p class="total">Total:</p>
+					<p class="total_price"></p>
+				</div>
+				<div class="warning">
+					<i class="fa-solid fa-circle-info"></i>
+					<p>
+						The cost is not final. Download our mobile app to see the final
+						price and place your order. Earn loyalty points and enjoy your
+						favorite coffee with up to 20% discount.
+					</p>
+				</div>
+			</div>
+			<div class="close">Close</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
