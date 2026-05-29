@@ -1,0 +1,63 @@
+@mixin hover-only {
+	@media (hover: hover) {
+		@content;
+	}
+}
+
+@mixin heading-1-mobile {
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 115%;
+}
+
+@mixin heading-2-mobile {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 125%;
+}
+
+@mixin heading-1 {
+	font-size: 72px;
+	font-weight: 600;
+	line-height: 105%;
+}
+
+@mixin heading-2 {
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 125%;
+}
+
+@mixin heading-3 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 125%;
+}
+
+@mixin medium {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+@mixin caption {
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 140%;
+}
+
+@mixin link_button {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 150%;
+}
+
+@mixin burger-link {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 125%;
+}
+
+@mixin accent {
+	font-style: italic;
+}
